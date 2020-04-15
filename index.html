@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en-US" dir="ltr">
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <!-- ===============================================-->
+    <!--    Document Title-->
+    <!-- ===============================================-->
+    <title>Team D App</title>
+
+
+    <!-- ===============================================-->
+    <!--    Favicons-->
+    <!-- ===============================================-->
+  <!--  <link rel="apple-touch-icon" sizes="180x180" href="https://designdatainc.sharepoint.com/sites/TeamD/SiteAssets/teamd/assets/img/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://designdatainc.sharepoint.com/sites/TeamD/SiteAssets/teamd/assets/img/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://designdatainc.sharepoint.com/sites/TeamD/SiteAssets/teamd/assets/img/favicons/favicon-16x16.png">
+    <link rel="shortcut icon" type="image/x-icon" href="https://designdatainc.sharepoint.com/sites/TeamD/SiteAssets/teamd/assets/img/favicons/favicon.ico">
+    <link rel="manifest" href="https://designdatainc.sharepoint.com/sites/TeamD/SiteAssets/teamd/assets/img/favicons/manifest.json">
+    <meta name="msapplication-TileImage" content="https://designdatainc.sharepoint.com/sites/TeamD/SiteAssets/teamd/assets/img/favicons/mstile-150x150.png">
+    <meta name="theme-color" content="#ffffff">
+-->
+
+    <!-- ===============================================-->
+    <!--    Stylesheets-->
+    <!-- ===============================================-->
+    <script src="https://designdatainc.sharepoint.com/sites/TeamD/Sitehttps://designdatainc.sharepoint.com/sites/TeamD/SiteAssets/teamd/assets/teamd/https://designdatainc.sharepoint.com/sites/TeamD/SiteAssets/teamd/assets/js/config.navbar-vertical.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
+    <link href="https://designdatainc.sharepoint.com/sites/TeamD/SiteAssets/teamd/assets/lib/perfect-scrollbar/perfect-scrollbar.css" rel="stylesheet">
+    <link href="https://designdatainc.sharepoint.com/sites/TeamD/SiteAssets/teamd/assets/lib/toastr/toastr.min.css" rel="stylesheet">
+
+    <link href="https://designdatainc.sharepoint.com/sites/TeamD/SiteAssets/teamd/assets/css/theme.min.css" rel="stylesheet">
+
+  </head>
+
+
+  <body>
+
+    <!-- ===============================================-->
+    <!--    Main Content-->
+    <!-- ===============================================-->
+    <main class="main" id="app">
+
+
+      <div class="container" data-layout="container">
+      	<component-navbar  v-on:updatesearch="updatesearch"></component-navbar>
+        <component-content  v-bind:customers="chunkedCustomers" ></component-content>
+       
+
+      </div>
+    </main>
+    <!-- ===============================================-->
+    <!--    End of Main Content-->
+    <!-- ===============================================-->
+
+
+
+
+    <!-- ===============================================-->
+    <!--    JavaScripts-->
+    <!-- ===============================================-->
+    <script src="https://designdatainc.sharepoint.com/sites/TeamD/SiteAssets/teamd/assets/js/jquery.min.js"></script>
+    <script src="https://designdatainc.sharepoint.com/sites/TeamD/SiteAssets/teamd/assets/js/popper.min.js"></script>
+    <script src="https://designdatainc.sharepoint.com/sites/TeamD/SiteAssets/teamd/assets/js/bootstrap.min.js"></script>
+    <script src="https://designdatainc.sharepoint.com/sites/TeamD/SiteAssets/teamd/assets/lib/fortawesome/all.min.js"></script>
+    <script src="https://designdatainc.sharepoint.com/sites/TeamD/SiteAssets/teamd/assets/lib/stickyfilljs/stickyfill.min.js"></script>
+    <script src="https://designdatainc.sharepoint.com/sites/TeamD/SiteAssets/teamd/assets/lib/sticky-kit/sticky-kit.min.js"></script>
+    <script src="https://designdatainc.sharepoint.com/sites/TeamD/SiteAssets/teamd/assets/lib/is_js/is.min.js"></script>
+    <script src="https://designdatainc.sharepoint.com/sites/TeamD/SiteAssets/teamd/assets/lib/lodash/lodash.min.js"></script>
+    <script src="https://designdatainc.sharepoint.com/sites/TeamD/SiteAssets/teamd/assets/lib/perfect-scrollbar/perfect-scrollbar.js"></script>
+    <script src="https://designdatainc.sharepoint.com/sites/TeamD/SiteAssets/teamd/assets/lib/toastr/toastr.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,500,600,700%7cPoppins:100,200,300,400,500,600,700,800,900&amp;display=swap" rel="stylesheet">
+    <script src="https://designdatainc.sharepoint.com/sites/TeamD/SiteAssets/teamd/assets/js/theme.js"></script>
+
+    <script src="https://designdatainc.sharepoint.com/sites/TeamD/SiteAssets/teamd/assets/clipboard.js/clipboard.min.js"></script>
+    <!-- development version, includes helpful console warnings -->
+	<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>	
+	<!-- VUE Main.js -->
+	<script src="https://designdatainc.sharepoint.com/sites/TeamD/SiteAssets/teamd/assets/components/navbar.js"></script>
+	<script src="https://designdatainc.sharepoint.com/sites/TeamD/SiteAssets/teamd/assets/components/content.js"></script>
+	<script src="https://designdatainc.sharepoint.com/sites/TeamD/SiteAssets/teamd/assets/components/companycard.js"></script>
+	<script src="https://designdatainc.sharepoint.com/sites/TeamD/SiteAssets/teamd/assets/components/footer.js"></script>
+	<script src="https://designdatainc.sharepoint.com/sites/TeamD/SiteAssets/teamd/assets/main.js"></script>
+
+  </body>
+
+</html>
