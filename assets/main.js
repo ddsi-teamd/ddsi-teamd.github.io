@@ -2,8 +2,7 @@ var files=[
 	"assets/components/navbar.js",
 	"assets/components/content.js",
 	"assets/components/companycard.js",
-	"assets/components/footer.js",
-	"assets/customers.js",
+	"assets/components/footer.js"	
 ];
 
 
