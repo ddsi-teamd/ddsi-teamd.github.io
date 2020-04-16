@@ -11,6 +11,16 @@ var files=[
 requirejs(files, function()
 {
 
+
+
+
+    var channel = pusher.subscribe('channel-teamd');
+    channel.bind('notification', function(data) 
+    {
+    	toastr.info(data.message);
+      	//app.notification=JSON.stringify(data);
+    });
+
 	// Define a new component called button-counter
 	var clipboard = new ClipboardJS('.btn-copy');
 
@@ -27,6 +37,7 @@ requirejs(files, function()
 	  data: {
 	    customers:customers,
 	    search:'',
+	    notification:''
 	  },
 	  methods:{
 	  	updatesearch(newvalue)
