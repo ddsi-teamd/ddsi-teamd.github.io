@@ -17,7 +17,10 @@ requirejs(files, function()
     var channel = pusher.subscribe('channel-teamd');
     channel.bind('notification', function(data) 
     {
-    	toastr.info(data.message);
+    	if(data.type=="info")
+    		toastr.info(data.message);
+    	if(data.type=="error")
+    		toastr.error(data.message);
       	//app.notification=JSON.stringify(data);
     });
 
