@@ -23,7 +23,11 @@ requirejs(files, function()
     		toastr.error(data.message);
       	//app.notification=JSON.stringify(data);
     });
-
+    channel.bind('system', function(data) 
+    {
+    	if(data.action=="reload")
+    		location.reload();
+    });
 	// Define a new component called button-counter
 	var clipboard = new ClipboardJS('.btn-copy');
 
