@@ -14,7 +14,7 @@ var component_navbar=Vue.component('component-navbar', {
 
       <button class="btn navbar-toggler-humburger-icon navbar-toggler mr-1 mr-sm-3" type="button" data-toggle="collapse" data-target="#navbarStandard" aria-controls="navbarStandard" aria-expanded="false" aria-label="Toggle Navigation"><span class="navbar-toggle-icon"><span class="toggle-line"></span></span></button>
       <a class="navbar-brand mr-1 mr-sm-3" href="../index.html">
-        <div class="d-flex align-items-center"><img class="mr-2" src="https://designdatainc.sharepoint.com/sites/TeamD/SiteAssets/teamd/assets/img/logo.png" alt="" width="40" /><span class="text-sans-serif">TEAM D</span>
+        <div class="d-flex align-items-center"><img class="mr-2" src="assets/img/logo.png" alt="" width="40" /><span class="text-sans-serif">TEAM D</span>
         </div>
       </a>
       <!--

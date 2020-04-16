@@ -85,7 +85,7 @@ var component_company=Vue.component('component-company', {
                         <div class="col-auto pr-2">
                           <div class="fs--1 font-weight-semi-bold">
                             <div class="hover-actions r-0 absolute-vertical-center">
-                              <button class="btn btn-light border-300 btn-sm mr-1 text-600 bg-white" type="button" data-toggle="tooltip" data-placement="top" title="Copy" data-clipboard-text="server.name"><span class='far fa-copy'></span></button>
+                              <button class="btn btn-light border-300 btn-sm mr-1 text-600 bg-white btn-copy" type="button" data-toggle="tooltip" data-placement="top" title="Copy" :data-clipboard-text="server.name"><span class='far fa-copy'></span></button>
                             </div>
                           </div>
                         </div>
@@ -165,7 +165,7 @@ var component_company=Vue.component('component-company', {
                         <div class="col-auto pr-2">
                           <div class="fs--1 font-weight-semi-bold">
                             <div class="hover-actions r-0 absolute-vertical-center">
-                              <button class="btn btn-light border-300 btn-sm mr-1 text-600 bg-white" type="button" data-toggle="tooltip" data-placement="top" title="Copy" :data-clipboard-text="customer.vpn[0].portal"><span class='far fa-copy'></span></button>
+                              <button class="btn btn-light border-300 btn-sm mr-1 text-600 bg-white btn-copy" type="button" data-toggle="tooltip" data-placement="top" title="Copy" :data-clipboard-text="customer.vpn[0].portal"><span class='far fa-copy'></span></button>
                             </div>                                                  
                           </div>
                         </div>

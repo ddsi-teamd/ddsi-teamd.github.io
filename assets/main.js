@@ -1,9 +1,9 @@
 var files=[
-	"https://designdatainc.sharepoint.com/sites/TeamD/SiteAssets/teamd/assets/components/navbar.js",
-	"https://designdatainc.sharepoint.com/sites/TeamD/SiteAssets/teamd/assets/components/content.js",
-	"https://designdatainc.sharepoint.com/sites/TeamD/SiteAssets/teamd/assets/components/companycard.js",
-	"https://designdatainc.sharepoint.com/sites/TeamD/SiteAssets/teamd/assets/components/footer.js",
-	"https://designdatainc.sharepoint.com/sites/TeamD/SiteAssets/teamd/assets/customers.js",
+	"assets/components/navbar.js",
+	"assets/components/content.js",
+	"assets/components/companycard.js",
+	"assets/components/footer.js",
+	"assets/customers.js",
 ];
 
 
