@@ -218,7 +218,7 @@ var component_company=Vue.component('component-company', {
                   </div> 
                   
                 </div>                
-                <div class="card-footer bg-light p-0"><a class="btn btn-sm btn-link btn-block py-2" v-bind:href="customer.more" target="_blank">More details<span class="fas fa-chevron-right ml-1 fs--2"></span></a></div>
+                <div class="card-footer bg-light p-0"><a class="btn btn-sm btn-link btn-block py-2" v-bind:href="customer.more" target="_blank">More details<span class=""></span></a></div>
               </div>
             </div> 
   `
